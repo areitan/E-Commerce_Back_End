@@ -5,7 +5,7 @@
 ---
 ## Description
 
-
+This is an e-commerce backend built from starter code. It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), Express.js and the [dotenv](https://www.npmjs.com/package/dotenv) package.
   
 
 ---
@@ -25,7 +25,7 @@
 
 
 - [E-Commerce Back End Git Hub Repository](https://github.com/areitan/E-Commerce_Back_End)
-- [E-Commerce Back End Walkthrough Video Link](https://drive.google.com/file/d/1g5jCev9P6KtSrnee9WpiLV1jh25YpQS9/view)
+- [E-Commerce Back End Walkthrough Video Link](*******)
 
 
 ---
