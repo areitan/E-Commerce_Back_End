@@ -2,11 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
-class Tag extends Model {}
+class Tag extends Model { }
 
 Tag.init(
   {
-    // define columns
     //   * `id is an Integer that Doesn't allow null values is Set as primary key that Uses auto increment.
     id: {
       type: DataTypes.INTEGER,
@@ -25,7 +24,7 @@ Tag.init(
     //   * `tag_name` is a String.
     tag_name: {
       type: DataTypes.STRING,
-        },
+    },
   },
   {
     sequelize,
