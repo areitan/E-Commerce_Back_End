@@ -5,7 +5,7 @@
 ---
 ## Description
 
-This is an e-commerce backend built from starter code. It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), Express.js and the [dotenv](https://www.npmjs.com/package/dotenv) package.
+This is an e-commerce backend built from starter code. It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), [Express.js](https://www.npmjs.com/package/express), and the [dotenv](https://www.npmjs.com/package/dotenv) package.
   
 
 ---
@@ -22,10 +22,10 @@ This is an e-commerce backend built from starter code. It uses [MySQL2](https://
 ---
 ## Installation
 
+In order to use this application, you could clone the repo and run it in the terminal using ```node server.js```.
 
-
-- [E-Commerce Back End Git Hub Repository](https://github.com/areitan/E-Commerce_Back_End)
-- [E-Commerce Back End Walkthrough Video Link](*******)
+- [E-Commerce Back-end Git Hub Repository](https://github.com/areitan/E-Commerce_Back_End)
+- [E-Commerce Back-end Walkthrough Video Link](*******)
 
 
 ---
@@ -34,18 +34,17 @@ This is an e-commerce backend built from starter code. It uses [MySQL2](https://
 
 
 
-### E-Commerce Back End Mock-ups Provided
-![E-Commerce Back End Mock-up 1](/assets/13-orm-homework-demo-01.gif)
-![E-Commerce Back End Mock-up 1](/assets/13-orm-homework-demo-02.gif)
-![E-Commerce Back End Mock-up 1](/assets/13-orm-homework-demo-03.gif)
+### E-Commerce Back-end Mock-ups Provided
+![E-Commerce Back-end Mock-up 1](/assets/13-orm-homework-demo-01.gif)
+![E-Commerce Back-end Mock-up 1](/assets/13-orm-homework-demo-02.gif)
+![E-Commerce Back-end Mock-up 1](/assets/13-orm-homework-demo-03.gif)
 
-
-
+### E-Commerce Back-end Screenshots
 
 ---
 ## Tests
 
-The routes were tested using Insomnia.
+The GET, PUT, POST and DELETE routes were tested for Categories, Products, and Tags using Insomnia. Please see the walk-through video link above.
 
 --- 
 ## Contribute
@@ -55,12 +54,13 @@ In order to create this application, I used the skills I have at the moment. I a
 ---
 ## Credits
 
-- [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
-
-
-
-- Trilogy Education Services, LLC for the starter code and example code throughout the week 10 exercises and example mock-up.
+- [MySQL2](https://www.npmjs.com/package/mysql2)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+- [Express.js](https://www.npmjs.com/package/express)
+- [dotenv](https://www.npmjs.com/package/dotenv) package.
+- Trilogy Education Services, LLC for the starter code, example code throughout the week 13 exercises, and example mock-up.
 - Chris Baird, my tutor
+
 
 ### Questions
 
