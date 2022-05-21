@@ -48,14 +48,11 @@ router.post('/', async (req, res) => {
 // UPDATE a tag's name by its `id` value
 router.put('/:id', async (req, res) => {
   try {
-    const tagData = await Tag.update({
-      name: req.body.name,
-    }, 
-    {
+    const tagData = await Tag.update(req.body,{
       where: {
-        id: req.params.id,
-      },
-    });
+      id: req.params.id,
+    }, 
+    },);
     if (!tagData[0]) {
       res.status(404).json({ message: 'No tag with this id!' });
       return;
